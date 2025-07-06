@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+
+    <link rel="stylesheet" href="fotobox.css" />
+    <script type="text/javascript" src="jquery-3.3.1.slim.min.js"></script>
+    <script type="text/javascript" src="popper.min.js"></script>
+    <script type="text/javascript" src="bootstrap.min.js"></script>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <title>Simon Mataboge</title>
+
+</head>
+
+<body>
+
+    <div class="header">
+        <div class="logo">Simon<span>MG</span></div>
+        <a href="#" class="menu-icon" onclick="openNav()">☰ </a>
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contacts" style="--i:6;">Contact</a></li>
+
+
+        </div>
+        <ul class="navlist">
+            <li><a href="#home" style="--i:1;">Home</a></li>
+            <li><a href="#about" style="--i:2;">About</a></li>
+            <li><a href="#services" style="--i:3;">Services</a></li>
+            <li><a href="#skills" style="--i:4;">Skills</a></li>
+            <li><a href="#portfolio" style="--i:5;">Portfolio</a></li>
+            <li><a href="#contacts" style="--i:6;">Contact</a></li>
+        </ul>
+
+
+
+
+        <script type="text/javascript">
+            function openNav() {
+                document.getElementById("mySidepanel").style.width = "420px";
+            }
+
+            function closeNav() {
+                document.getElementById("mySidepanel").style.width = "0";
+            }
+        </script>
+
+
+
+        </div>
+<section id="home">
+	<div class="home">
+		<div class="home-content">
+				<h1>Haile I!</h1>
+				<h6> My name is Simon</h6>
+				<p>
+					I also do IT consultation, company registrations and SARS consultations
+				</p>
+				<div class="buy-btn">
+					<a href="about.html" class="btn"> About Me</a>
+					<a href="#contacts" class="btn">Hire Me</a>
+				</div>
+
+				<div class="social-icons">
+					<a href="#"><i class="fa fa-facebook"></i></a>
+					<a href="#"><i class="fa fa-twitter"></i></a>
+					<a href="#"><i class="fa fa-linkedin"></i></a>
+					<a href="#"><i class="fa fa-whatsapp"></i></a>
+				</div>
+			</div>
+		</div>
+</section>
+    
+    
+    
+<section id="about">
+    <em>About Us</em>
+	<div class="about">
+      
+      
+		<div class="about-box">
+        <h4>Certified Front-End Designer</h4>
+			<h6>About Us</h6>
+			<p>
+				The word I would use to describe myself is <b>"Ambitious"</b>.
+				I particularly enjoy working as part of a team, I find solutions,
+				get creative he is a fast learner,dedicated and a very good.
+			</p>
+		</div>
+      <div class="about-box">
+          <h6>What we do</h6>
+            <ul>
+                <li>Freelancer</li>
+                <li>Product Designer</li>
+                <li>Creative Head</li>
+                <li>Senior Manager</li>
+                <li>Design Intern</li>
+            </ul>     
+      </div>
+      <div class="about-box">
+          <h6>How to request a service</h6>
+				<div class="content">
+
+                    <div class="contents">
+						<button type="button" class="collapsible">There are many well known companies </button>
+						<div class="issues">
+						  <p>We are 100% black onwed and youth driven company </p>
+						</div>
+
+
+						<button type="button" class="collapsible">My company is in different province</button>
+						<div class="issues">
+						  <p>We are planning on collaborating with other companies that we share same values and principles </p>
+						</div>
+						<button type="button" class="collapsible">How can I trust a new company?</button>
+						<div class="issues">
+						  <p>Our mission is to provide services that are rated as top class to our clients </p>
+						</div>	
+			</div>
+
+                </div> 
+						<script>
+						var coll = document.getElementsByClassName("collapsible");
+						var i;
+
+						for (i = 0; i < coll.length; i++) {
+						  coll[i].addEventListener("click", function() {
+							this.classList.toggle("active");
+							var content = this.nextElementSibling;
+							if (content.style.display === "block") {
+							  content.style.display = "none";
+							} else {
+							  content.style.display = "block";
+							}
+						  });
+						}
+						</script>
+      </div>
+	</div>
+</section>
+    
+    
+
+    
+
+    
+ <div id="awards">
+     <em>Awards</em>
+    <div class="awards">
+        <div class="award">
+            <h4>Design Process</h4>
+              <p>
+                The word I would use to describe myself is <b>"Ambitious"</b>.
+                I particularly enjoy working as part of a team,
+              </p> 
+					<div class="skills-web">Web Design</div>
+					<div class="skills-dev">Web Development</div>
+					<div class="skills-js">Mobile Development</div>
+        </div>
+        <div class="award-box">
+
+          <div class="titlev">
+
+            <video autoplay loop id="myvideo">
+              <source src="jr_reid_only_one_me_official_video_2015_._h264_49490.mp4" >	 
+            </video>
+
+            <button id="mybtn"onclick="myfunction()"><i class="fa fa-play"></i></button>
+
+          </div>
+        </div>
+
+
+
+            <script type="text/javascript">
+                var video = document.getElementById("myvideo");
+                var btn = document.getElementById("mybtn");
+                function myfunction() { 
+                if (video.paused) {
+                video.play();
+                btn.innerHTML = "pause";
+                } else {
+                    video.pause();
+                    btn.innerHTML = "play";
+
+                }
+                }
+            </script>
+        </div>
+     </div>
+ 
+    
+    
+
+    
+    
+    </body>
+</html>
+
