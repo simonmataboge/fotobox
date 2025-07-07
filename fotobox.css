@@ -849,8 +849,156 @@ tr
 }
 
 
+.blog-box {
+	color: black;
+	width: 270px;
+	margin-left: 600px;
+    margin-top: -100px;
+}
+@media screen and (max-width:1000px ) {
+	.blog-box  {
+		margin-top: 10px;
+		margin-left: 0px;
+      width: 460px;
+	}
+}
+#aboutblog .benefits-box
+{
+    width: 300px;
+    height: 180px;
+    margin-top: 10px;
+}
+@media screen and (max-width:1000px ){
+	#aboutblog .benefits-box {
+        width: 380px;
+	}
+}
+#aboutblog .box
+{
+    margin-left: 260px;
+    margin-top: -120px;
+    width: 340px;
+    
+}
+@media screen and (max-width:1000px ) {
+    #aboutblog .box{
+       
+        width: 250px;
+        margin-left: 240px;
+    }
+}
+#aboutblog .blog-box img
+{
+    height: 400px;
+    width: 250px;
+    margin-top: 0px;
+    margin-left: -20px;
+}
+@media screen and (max-width:1000px ){
+	#aboutblog .blog-box img {
+        margin-top: -40px;
+        margin-left: 230px;
+      height: 300px;
+
+	}
+}
+@media screen and (max-width:1000px ){
+	#aboutblog .blog-box h6 {
+        margin-top: -200px;
+
+	}
+}
+.blog-content
+{
+    margin-top: 140px;
+}
+@media screen and (max-width:1000px ) {
+    .blog-content {
+        width: 480px;
+        margin-top: 250px;
+        margin-left: 10px;
+    }
+}
 
 
+
+
+
+.blog-content-box
+{
+    
+    width: 560px;
+    margin-top: -500px;
+    display: inline-block;
+    margin-left: 0px;
+    height: 800px;
+    
+}
+@media screen and (max-width:1000px ){
+	.blog-content-box{
+        margin-left: 10px; 
+		width: 470px;
+      margin-top: 50px;
+	}
+}
+.blog-content-box img
+{
+    width: 100%;
+    height: 300px;
+}
+#post
+{
+    height: 400px;
+    margin-top: 50px;
+}
+#post form
+{
+    width: 600px;
+    margin-left: -30px;
+    margin-top: 20px;
+    background-color: ;
+    
+    
+}
+@media screen and (max-width:1000px ){
+	#post form{
+        margin-left: 10px; 
+		width: 490px;
+	}
+}
+#post input {
+    margin-left: 0px;
+    height: 40px;
+    width: 250px;
+    display: inline-block;
+   
+    
+}
+@media screen and (max-width:1000px ) {
+    #post input{
+        
+        width: 197px;
+    }
+}
+#post textarea {
+    width: 505px;
+    height: 100px;
+}
+@media screen and (max-width:1000px ){
+	#post textarea{
+        width: 400px;
+	}
+}
+#post ul {
+    display: inline-block;
+    margin-left: -60px;
+}
+
+#post .col-75 {
+    margin-top: px;
+    margin-left: 20px;
+    font-size: 12px;
+}
 /*---contacts-----*/
 #contacts
 {
@@ -973,7 +1121,7 @@ textarea {
     }
 }
 
-#contacts button {
+#contacts button, #post button {
     margin-top: 10px;
     height: 50px;
     width: 200px;
@@ -984,7 +1132,7 @@ textarea {
     border-radius: 5px;
 }
 @media screen and (max-width:1000px ) {
-    #contacts button{
+    #contacts button, #post button{
         width: 400px;
     }
 }
@@ -1182,4 +1330,24 @@ textarea {
     padding: 4px;
     margin-top: 5px;
 }
-	
+
+
+
+.blog a
+{
+    color: black;
+    
+}
+.a:hover
+{
+    color: goldenrod;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
